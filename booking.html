@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobile Tech Repairs</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="booking.css">
+    <meta name="description" content="For a quote order a repair today on our website.">
+    <meta name="author" content="Rowan Shenoy">
+</head>
+
+<script src="script.js">
+</script>
+
+<body id="darkTheme" onload="load()">
+    <header>
+        <img src="images/0c96164b-381b-4715-bd06-915e546ce077.jpg" alt="Logo">
+        <nav>
+            <div class="navButton">
+                <a href="index.html">Homepage</a>
+            </div>
+            <div class="navButton">
+                <a href="booking.html">Book Now</a>
+            </div>
+            <div class="navButton">
+                <a href="#">Products</a>
+                <div class="dropdownBox">
+                    <div class="navButton">
+                        <a href="#">item</a>
+                    </div>
+                    <div class="navButton">
+                        <a href="#">item</a>
+                    </div>
+                    <div class="navButton">
+                        <a href="#">item</a>
+                    </div>
+                    <hr>
+                </div>
+            </div>
+            <div class="navButton">
+                <a href="contact.html">About us</a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="darkModeSwitch">
+            <label class="switch" oninput="darkMode()">
+                <input type="checkbox">
+                <span class="slider round"></span>
+            </label>
+        </div>
+        <div class="wrapper">
+            <h1>Book Now</h1>
+            <h3>Please fill in the form below</h3>
+            <form action="form.php">
+                <label>Name: </label><input type="text" name="name"><br><br>
+                <label>Email: </label><input type="text" name="mail"><br><br>
+                <label>Issue: </label><input type="text" name="issue"><br><br>
+                <label>Best date for appointment:</label><br>
+                <input type="date" name="date"><br><br><br>
+            </form>
+            <p class="disclaim"> This is not an actual form, no data is saved</p>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2022, Rowan Shenoy</p>
+    </footer>
+</body>
+</html>

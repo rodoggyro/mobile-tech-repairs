@@ -1,0 +1,70 @@
+.buttons {
+    display: flex;
+    gap: 75px;
+    height: 250px;
+    color: coral;
+    flex-wrap: wrap;
+}
+
+.buttons a {
+    flex: 1;
+    border-radius: 15px;
+    height: 100%;
+    border: 2px black solid;
+    text-decoration: none;
+    z-index: 100;
+    color: coral;
+}
+
+.buttons h3 {
+    padding-top: 100px;
+}
+
+.herobox1 {
+    height: 100%;
+    z-index: 0;
+    background-image: url(CompRepairResources-20221020T145244Z-001/CompRepairResources/800px-Books-business-computer-connection-459654.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -19px;
+    border-radius: 15px;
+}
+
+.herobox2 {
+    height: 100%;
+    z-index: 0;
+    background-image: url(CompRepairResources-20221020T145244Z-001/CompRepairResources/motherboard.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -19px;
+    border-radius: 15px;
+}
+
+.herobox3 {
+    height: 100%;
+    z-index: 0;
+    background-image: url(CompRepairResources-20221020T145244Z-001/CompRepairResources/alumninumAppleKB.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -19px;
+    border-radius: 15px;
+}
+
+/* styling the testimonials */
+.testimonials {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.tbox {
+    margin-top: 15px;
+    border: 3px black solid;
+    border-radius: 15px;
+    width: 45%;
+}

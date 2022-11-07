@@ -1,0 +1,184 @@
+body {
+    margin:0px;
+    /* color: #222;
+    background: #fff; */
+}
+
+/* body.darkTheme {
+    color: #eee;
+    background: #3b3b3b;
+} */
+
+/* styling the header */
+header {
+    /* styling the background image to fully encapselate the navigation */
+    background-image: url("images/pexels-nao-triponez-792199.jpg");
+    /* Stock image */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 165px;
+
+    /* just allows children divs to be centered */
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-evenly;
+    gap: 25px;
+
+    /* if the background image fails then it will just display color below */
+    background-color: azure;
+}
+
+header img {
+    /* stlying the logo to show the background aswell as the writing */
+    
+    flex: 1;
+    max-height: 165px;
+    opacity: 0.5;
+}
+
+/* styling the navbar */
+nav {
+    /* styling the nav buttons */
+    flex: 1;
+    justify-content: space-evenly;
+    display: inline-flex;
+    max-height: 40px;
+    
+}
+
+.navButton {
+    /* styling text and buttons */
+    background-color: rgba(197, 197, 197, 0.655);
+    border: 2px black solid;
+    padding: 10px;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.navButton a {
+    /* changing the a tag from hyperlink to normal text */
+    text-decoration: none;
+    color: black;
+}
+.dropdownBox {
+    /* removes the dropdowns until it's parent tag is hovered over */
+    margin-top: 10px;
+    display: none;
+    position: absolute;
+    padding: 0px;
+    height: 10px;
+    /* top: 35px; */
+}
+
+.dropdownBox a {
+    margin: 0px;
+    padding: 0px;
+}
+
+.navButton:hover {
+    /* on hover changes background */
+    background-color: rgba(255, 127, 80, 0.425);
+    transition: 1500ms;
+}
+
+.navButton:hover .dropdownBox {
+    /* makes dropdown visible if parent nav is hovered over */
+    display: block;
+    margin-top: 10px;
+    position: absolute;
+    padding: 0px;
+    height: 10px;
+}
+
+/* The switch - the box around the slider */
+.switch {
+  position: fixed;
+  top: 50px;
+  right: 0px;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+/* styling main section */
+.wrapper {
+    width: 1040px;
+    /* background-color: rgba(240, 248, 255, 0.479); */
+    margin:auto;
+    min-height: 150px;
+    text-align: center;
+    padding: 15px;
+}
+
+.wrapper h2 {
+    color: rgb(86, 86, 86)
+}
+
+/* centering the footer text */
+footer {
+    text-align: center;
+    justify-content: center;
+    border-top: 3px black solid;
+    height: 50px;
+    padding: 25px;
+}
+
+.disclaim {
+    color: gray;
+}

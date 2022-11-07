@@ -1,0 +1,13 @@
+form {
+    background-color: rgba(69, 69, 255, 0.251);
+    border-radius: 45px;
+    min-height: 250px;
+    padding-top: 50px;
+    padding-bottom:50px;
+    justify-content: center;
+}
+
+input {
+    border-radius: 5px;
+    border: 2px black solid;
+}

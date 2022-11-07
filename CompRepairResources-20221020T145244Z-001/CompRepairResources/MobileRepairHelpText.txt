@@ -1,0 +1,52 @@
+HEAD CONTENT
+
+<meta name="author" content="YOUR NAME">
+<meta name="description" content="Travel Tech Repair Website">
+
+
+
+Font Awesome
+<script src="https://kit.fontawesome.com/c9caa37477.js" crossorigin="anonymous"></script>
+
+Google Fonts
+Comfortaa
+Arima Madurai
+
+
+----NAVIGATION TEXT----
+Book Online
+About
+Contact
+
+----MAIN TEXT (Hero Box)----
+Mobile Tech Repairs
+
+Technology doesn't always work, and when it doesn't, you need someone to help. Our trained and certified mobile techs are one call away and ready to serve the Greater Portledge Community.
+
+Fast, convenient technology servicing and education with up-front pricing. All without the hassle of taking your equipment into a store.
+
+
+Book Online [Button]
+
+-----CARDS (3) -----
+Book Online
+Service Types
+Call for Advice
+
+---- CUSTOMER REVIEWS ----
+"I would like to personally thank you for your outstanding work. Your team rocks! It's all good. I can't say enough about One Call Techs."
+
+- Tammara A.
+
+
+"I'm good to go. One Call Techs is both efficient and highly adaptable. I will refer everyone I know."
+
+- Eve V.
+
+"One Call Techs should be nominated for service comapny of the year."
+
+- Jen N.
+
+"I don't know what else to say. Absolutely wonderful! You've saved our business! After using One Call Techs my home business was quickly back up and running!"
+
+- Jon J.
